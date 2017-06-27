@@ -7,12 +7,13 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Pantheon</h2>
+          <h3>The new gods demand tribute.</h3>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="signup">
+          <button className="wikipedia-login">Log in</button>
+          <p>with your Wikipedia account</p>
+        </div>
       </div>
     );
   }
